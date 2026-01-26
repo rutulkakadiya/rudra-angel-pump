@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+*{
+    font-family: var(--font-regular);
+}
+
+button::before {
+  width: 0;
+}
+button:hover::before {
+  width: 100%;
+}
+
+@theme{
+    --font-primary: "Manrope", sans-serif;
+    --font-regular: "DM Sans", sans-serif;
+
+    --color-primary: #e81c24;
+}
+
