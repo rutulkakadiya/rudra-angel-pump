@@ -221,6 +221,15 @@ const Slider = ({ sections = defaultSections, className = "" }) => {
     /* -------------------------------- UI -------------------------------- */
     return (
         <div ref={containerRef} className={`relative h-[60vh] xs:h-[65vh] sm:h-[75vh] md:h-[85vh] lg:h-screen w-full overflow-hidden bg-black text-white ${className}`}>
+
+            <div className="hidden sm:block absolute z-[999] right-[30px] bottom-[30px] pointer-events-none">
+                <img
+                    className="h-[400px]"
+                    src="/Images/boy.png"
+                    alt="Boy Illustration"
+                />
+            </div>
+
             {/* Slides */}
             {sections.map((s, i) => (
                 <section
