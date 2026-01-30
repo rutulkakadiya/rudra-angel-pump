@@ -47,7 +47,7 @@ export default function Header() {
 
   return (
     <header
-      className={`fixed top-0 left-0 w-full z-50 py-6 transition-all duration-300 ${isScrolled
+      className={`fixed top-0 left-0 w-full z-[999] py-6 transition-all duration-300 ${isScrolled
           ? 'bg-white/90 backdrop-blur-md shadow-lg py-2'
           : 'bg-transparent py-4'
         }`}
