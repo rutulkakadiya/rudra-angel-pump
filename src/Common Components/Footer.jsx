@@ -105,9 +105,9 @@ const Footer = () => {
           <p>
             © {new Date().getFullYear()} Angel Pumps. All Rights Reserved.
           </p>
-          <div className="flex gap-1">
+          {/* <div className="flex gap-1">
           Developed by <a href="https://rudrabranding.com" className='text-primary' target="_blank" rel="noopener noreferrer">Rudra Branding</a>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>

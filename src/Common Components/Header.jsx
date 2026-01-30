@@ -29,13 +29,15 @@ export default function Header() {
   const navLinks = [
     { name: 'Home', href: '#' },
     { name: 'About Us', href: '#' },
-    {
-      name: 'Products',
-      dropdown: [
-        { name: 'Solar', href: '#' },
-        { name: 'Pump', href: '#' },
-      ],
-    },
+    { name: 'Submersible Pump', href: '#' },
+    { name: 'Solar', href: '#' },
+    // {
+    //   name: 'Products',
+    //   dropdown: [
+    //     { name: 'Solar', href: '#' },
+    //     { name: 'Pump', href: '#' },
+    //   ],
+    // },
     { name: 'Event News', href: '#' },
     { name: 'E Brochure', href: '#' },
     { name: 'Career', href: '#' },
